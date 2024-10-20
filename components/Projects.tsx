@@ -2,56 +2,48 @@ import React from "react";
 
 const projects = [
 	{
-		title: "Moon Bunny",
-		stack: "Phaser JS ",
+		title: "Github Finder",
+		stack: "React JS | Tailwind CS ",
 		description:
-			"A fun little practice game made with Phaser JS. All you have to do is collect carrots and get a high score. EzzPzz 😄",
-		githubLink: "https://github.com/Vanshika-Rana/bunny-jump-game",
+			"A web app to let user find any public profile on github and their profile statistics and public repositories.",
+		githubLink: "https://github.com/shuklaksh/Github-Finder",
 		vercelLink:
-			"https://gateway.valist.io/ipfs/bafybeibszyhygcrzcf2bdq4gyvbja4xt6nqcu44b4zsy64ghsu56xoc32m/",
+			"https://github-finder-shuklaksh.netlify.app/",
 	},
 	{
-		title: "Manodaya Homes",
-		stack: "Next JS | Tailwind CSS",
+		title: "Fast Fingers",
+		stack: "React JS | Material UI",
 		description:
-			"Website made for a tourist homestay business, with Google Form integration.",
-		githubLink: "https://github.com/Vanshika-Rana/tourist-homestay",
-		vercelLink: "https://www.manodayahomes.in/",
+			"A fun typing game where you can test your typing skills against time.",
+		githubLink: "https://github.com/shuklaksh/Fast-Fingers",
+		vercelLink: "https://fastfingers-shuklaksh.netlify.app//",
 	},
 	{
-		title: "SafeBet",
-		stack: "Solidity | Chainlink | Next JS | Tailwind CSS",
+		title: "Bloggy",
+		stack: "ReactJS | Redux | Firebase | MUI",
 		description:
-			"Your Decentralized Betting Buddy! If you want to bet in the world of Web3, SafeBet is the best choice. A dApp that will help you bet on things that excites you the most!",
-		githubLink: "https://github.com/Vanshika-Rana/safebet",
-		vercelLink: "https://safebet.vercel.app/",
+			"A microblogging website to share you wisdom around the world. ",
+		githubLink: "https://github.com/shuklaksh/Bloggy",
+		vercelLink: "https://bloggy-lakshay.vercel.app/",
 	},
 
 	{
-		title: "Rcmnd",
-		stack: "Python | Streamlit",
+		title: "Flow Builder",
+		stack: "ReactJS | Tailwind CSS | React Flow",
 		description:
-			"Machine Learning model built to recommend K-Dramas that users will like to watch next. It takes their recent drama name as input and provides list of suggestions that matches the plot of their already seen drama.",
-		githubLink: "https://github.com/Vanshika-Rana/RCMND",
-		vercelLink: "https://4x5neh5jzujhjfauls77vq.streamlit.app/",
+			"Design your dream project better with flow builder. ",
+		githubLink: "https://github.com/shuklaksh/ChatBot-Flow-BuilderD",
+		vercelLink: "https://chat-bot-flow-builder-867q.vercel.app//",
 	},
 	{
-		title: "Story Sphere",
-		stack: "Next JS | Tailwind CSS | Supabase | Typescript",
+		title: "Drum Kit",
+		stack: "HTML | CSS",
 		description:
-			"Craft a unique narrative by collaborating with individuals from diverse backgrounds. Let your imagination run wild as you weave a tale together, creating connections and memories that last a lifetime.",
-		githubLink: "https://github.com/Vanshika-Rana/storycreator-app",
-		vercelLink: "https://storycreator-app.vercel.app/",
+			"A fun pocket friendly drum kit for rockstars 😉",
+		githubLink: "https://github.com/shuklaksh/drum-kit",
+		vercelLink: "https://shuklaksh.github.io/drum-kit/",
 	},
 
-	{
-		title: "Social Circle",
-		stack: "Solidity | Next JS | Tailwind CSS | Ethers",
-		description:
-			"Who doesn't like getting fun messages from friends? A dApp built on Ethereum blockchain that allows you to connect your wallet and drop a few messages :)",
-		githubLink: "https://github.com/Vanshika-Rana/Social-Circle",
-		vercelLink: "https://social-circle.vercel.app/",
-	},
 ];
 
 const Project: React.FC = () => {

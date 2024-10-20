@@ -13,8 +13,6 @@ export default function Home() {
 			<Skills />
 
 			<Projects />
-			<POW />
-			<ArticleComponent />
 
 			<Footer />
 		</main>

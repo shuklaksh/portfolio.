@@ -14,8 +14,13 @@ import {
 	SiTailwindcss,
 	SiSolidity,
 	SiMysql,
-    SiFirebase
+    SiFirebase,
+	SiRedux,
+	SiExpress,
+	SiPostman,
+	SiGraphql,
 } from "react-icons/si";
+
 
 interface Skill {
 	name: string;
@@ -32,22 +37,23 @@ const Skills: React.FC = () => {
 			icon: <SiTypescript className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' />,
 		},
 		{ name: "React", icon: <FaReact className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' /> },
+		{ name: "Redux", icon: <SiRedux className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' /> },	
 		{
 			name: "Next.js",
 			icon: <SiNextdotjs className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' />,
 		},
-		{ name: "Node.js", icon: <FaNodeJs className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' /> },
-		{
-			name: "Solidity",
-			icon: <SiSolidity className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' />,
-		},
-		{ name: "MySQL", icon: <SiMysql className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' /> },
 		{
 			name: "Tailwind CSS",
 			icon: <SiTailwindcss className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' />,
 		},
-		{ name: "Python", icon: <FaPython className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' /> },
-        { name: 'Firebase', icon: <SiFirebase className="text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95" /> },
+		{ name: "Node.js", icon: <FaNodeJs className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' /> },
+		{ name: "Express.js", icon: <SiExpress className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' /> },
+		{
+			name: "GraphQL",
+			icon: <SiGraphql className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' />,
+		},
+		{ name: "MySQL", icon: <SiMysql className='text-white text-4xl hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-95' /> },
+		
 	];
 
 	return (

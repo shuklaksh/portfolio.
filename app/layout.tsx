@@ -26,8 +26,8 @@ const ibmPlex= IBM_Plex_Sans({
 	display: "swap",
 });
 export const metadata: Metadata = {
-	title: 'Vanshika Rana - Portfolio',
-	description: 'Developer | Dev Rel',
+	title: 'Lakshay Shukla - Portfolio',
+	description: 'Software Engineer',
   }
 
 export default function RootLayout({
