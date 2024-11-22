@@ -2,8 +2,17 @@ import React from "react";
 
 const projects = [
 	{
+		title: "Whispr",
+		stack: "Next JS | NodeJS | ExpressJS | GraphQL | OAuth 2.0",
+		description:
+			"A full stack microblogging web app to share your thoughts with your friends around the world",
+		githubLink: "https://github.com/shuklaksh/Whispr",
+		vercelLink:
+			"https://whispr-frontend-lake.vercel.app/",
+	},
+	{
 		title: "Github Finder",
-		stack: "React JS | Tailwind CS ",
+		stack: "React JS | Tailwind CSS ",
 		description:
 			"A web app to let user find any public profile on github and their profile statistics and public repositories.",
 		githubLink: "https://github.com/shuklaksh/Github-Finder",
@@ -22,7 +31,7 @@ const projects = [
 		title: "Bloggy",
 		stack: "ReactJS | Redux | Firebase | MUI",
 		description:
-			"A microblogging website to share you wisdom around the world. ",
+			"Blog your thoughts",
 		githubLink: "https://github.com/shuklaksh/Bloggy",
 		vercelLink: "https://bloggy-lakshay.vercel.app/",
 	},

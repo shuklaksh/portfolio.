@@ -38,7 +38,7 @@ export default function Hero() {
 					Lakshay Shukla
 				</h1>
 				<h2 className='tracking-wider text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl mt-4 font-semilight'>
-					Software Engineer
+					Software Engineer | Frontend | Fullstack
 				</h2>
 				<div className='flex space-x-6 my-4'>
 					<Link
@@ -67,7 +67,7 @@ export default function Hero() {
 					</Link>
 				</div>
 				<a
-					href='https://drive.google.com/file/d/1o4HBSNPMcP5Nj_rzVacs1qArqE2vDOCX/view'
+					href='https://drive.google.com/file/d/1ARTYDdKiehDfUP8EnseVtYI5wPbZqim8/view?usp=sharing'
 					target='_blank' //
 					download='Lakshay_Shukla_Resume.pdf'>
 					<button className='tracking-wider border-purple-800 border-2 rounded-lg font-medium text-white px-4 py-2 mt-4 text-sm md:text-lg lg:text-xl transition-all duration-300 ease-in-out hover:bg-purple-800 focus:outline-none focus:ring focus:border-purple-900'>
