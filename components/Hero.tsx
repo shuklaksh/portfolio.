@@ -67,7 +67,7 @@ export default function Hero() {
 					</Link>
 				</div>
 				<a
-					href='https://drive.google.com/file/d/1ARTYDdKiehDfUP8EnseVtYI5wPbZqim8/view?usp=sharing'
+					href='https://drive.google.com/file/d/1F3kOhn5hb9WAoU5nUGBPpP-OLl41ykZI/view'
 					target='_blank' //
 					download='Lakshay_Shukla_Resume.pdf'>
 					<button className='tracking-wider border-purple-800 border-2 rounded-lg font-medium text-white px-4 py-2 mt-4 text-sm md:text-lg lg:text-xl transition-all duration-300 ease-in-out hover:bg-purple-800 focus:outline-none focus:ring focus:border-purple-900'>
