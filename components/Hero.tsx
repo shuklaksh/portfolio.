@@ -29,7 +29,7 @@ export default function Hero() {
       );
     }
   }, [vantaEffect]);
-  // LCW > Lin dan
+  // LCW > Lin dan 56
   return (
     <div
       className="bg-slate-950 min-h-screen w-full flex flex-col justify-center items-start text-gray-200"
